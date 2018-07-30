@@ -1,6 +1,6 @@
 {
-  "name": "ionic2-auto-complete",
-  "version": "1.6.2-alpha",
+  "name": "mobi-auto-complete",
+  "version": "1.6.4",
   "scripts": {
     "publish": "npm publish dist",
     "build": "gulp build",
@@ -14,18 +14,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kadoshms/ionic2-autocomplete"
+    "url": "https://github.com/mobiliarmad/ionic2-autocomplete"
   },
   "author": {
-    "name": "mor",
-    "email": "kadoshms@gmail.com"
+    "name": "trungnv184",
+    "email": "trungnv184@gmail.com"
   },
   "keywords": [
     "angular"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kadoshms/ionic2-autocomplete/issues"
+    "url": "https://github.com/mobiliarmad/ionic2-autocomplete/issues"
   },
   "devDependencies": {
     "@angular/common": "4.1.0",

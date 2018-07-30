@@ -65,7 +65,7 @@ const defaultOpts = {
             <span [innerHTML]='attrs.label | boldprefix:attrs.keyword'></span>
         </ng-template>
         <ul *ngIf="!disabled && suggestions.length > 0 && showList">
-            <li *ngFor="let suggestion of suggestions" (tap)="handleSelectTap($event, suggestion)">
+            <li *ngFor="let suggestion of suggestions" (click)="select(suggestion);$event.stopPropagation()">
                 <ng-template
                         [ngTemplateOutlet]="template || defaultTemplate"
                         [ngTemplateOutletContext]="
