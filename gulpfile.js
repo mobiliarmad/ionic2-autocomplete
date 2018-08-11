@@ -124,7 +124,7 @@ gulp.task('rollup:umd', function () {
       }
 
     }))
-    .pipe(rename('ionic2-auto-complete.umd.js'))
+    .pipe(rename('mobi-auto-complete.umd.js'))
     .pipe(gulp.dest(distFolder));
 });
 
