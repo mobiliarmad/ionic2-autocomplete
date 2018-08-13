@@ -412,7 +412,7 @@ In order to implement a custom Item component, you need to follow these steps:
 
 ## Searchbar options ##
 
-Ionic2-auto-complete supports the regular Ionic's Searchbar options, which are set to their default values as specified in the [docs](http://ionicframework.com/docs/v2/api/components/searchbar/Searchbar/).
+mobi-auto-complete supports the regular Ionic's Searchbar options, which are set to their default values as specified in the [docs](http://ionicframework.com/docs/v2/api/components/searchbar/Searchbar/).
 
 You can override these default values by adding the `[options]` attribute to the `<ion-auto-complete>` tag, for instance:
 

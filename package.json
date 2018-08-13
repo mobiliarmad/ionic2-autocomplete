@@ -1,12 +1,12 @@
 {
   "name": "mobi-auto-complete",
-  "version": "1.6.6",
+  "version": "1.6.7",
   "scripts": {
     "publish": "npm publish dist",
     "build": "gulp build",
     "build:watch": "gulp",
     "docs": "npm run docs:build",
-    "docs:build": "compodoc -p tsconfig.json -n ionic2-auto-complete -d docs --hideGenerator",
+    "docs:build": "compodoc -p tsconfig.json -n mobi-auto-complete -d docs --hideGenerator",
     "docs:serve": "npm run docs:build -- -s",
     "docs:watch": "npm run docs:build -- -s -w",
     "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
@@ -54,7 +54,6 @@
     "gulp-rename": "^1.2.2",
     "gulp-rollup": "^2.15.0",
     "ionic-angular": "3.2.1",
-    "ionic2-auto-complete": "^1.4.3-release",
     "ionicons": "3.0.0",
     "jasmine-core": "~2.5.2",
     "jasmine-spec-reporter": "~3.2.0",
