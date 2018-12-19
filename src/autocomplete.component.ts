@@ -202,6 +202,8 @@ export class AutoCompleteComponent implements ControlValueAccessor {
             this.keyword = '';
         } else if (this.keyword.trim() === '') {
             this.suggestions = [];
+            this.ionAutoInput.emit(this.keyword);
+
             return;
         }
 
@@ -349,7 +351,7 @@ export class AutoCompleteComponent implements ControlValueAccessor {
     @HostListener('document:click', ['$event'])
     private documentClickHandler(event) {
         if ((this.searchbarElem
-                && !this.searchbarElem._elementRef.nativeElement.contains(event.target))
+            && !this.searchbarElem._elementRef.nativeElement.contains(event.target))
             ||
             (!this.inputElem && this.inputElem._elementRef.nativeElement.contains(event.target))
         ) {
